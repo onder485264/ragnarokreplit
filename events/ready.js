@@ -16,5 +16,5 @@ module.exports = client => {
     } ismi ile giriş yapıldı!`
   );
   client.user.setStatus("online");
-client.user.setActivity(`Polat <3 Flaves`)
+client.user.setActivity(`the Maiwen 💖`)
 };

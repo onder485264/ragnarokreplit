@@ -169,7 +169,7 @@ client.on("guildMemberAdd", member => {
   
   
   
- const hgmesaj = (`**__Flaves'e__** hoşgeldin (<@${vader.id}>) - (\`${vader.id}\`)\n \n Seninle beraber sunucumuz(`  + üyesayısı +  `)kişiye ulaştı. \n\n Hesabın (`  + moment(member.user.createdAt).format("DD MMMM YYYY dddd") + `) oluşturulduğu için`  + kontrol + `\n\n Kaydını tamamlamak için herhangi bir \`Confirmation\` teyit odasına girmen yeterlidir. \n\n Kayıt olduktan sonra rol seçim katagorisinden rolleri almayı unutma. \n\n Tagımızı alarak ailemizin bir parçası olabilirsin. \`㞸\` <@&749238356663074837> `)
+ const hgmesaj = (`**__the Maiwen__** hoşgeldin (<@${vader.id}>) - (\`${vader.id}\`)\n \n Seninle beraber sunucumuz(`  + üyesayısı +  `)kişiye ulaştı. \n\n Hesabın (`  + moment(member.user.createdAt).format("DD MMMM YYYY dddd") + `) oluşturulduğu için`  + kontrol + `\n\n Kaydını tamamlamak için herhangi bir \`Confirmation\` teyit odasına girmen yeterlidir. \n\n Kayıt olduktan sonra rol seçim katagorisinden rolleri almayı unutma. \n\n Tagımızı alarak ailemizin bir parçası olabilirsin. \`㞸\` <@&749238356663074837> `)
 kanal.send(hgmesaj)
 
 
@@ -197,7 +197,7 @@ client.on("guildMemberAdd", member => {
   member.user.send('Selam Dostum Ne Yazık ki Sana Kötü Bir Haberim Var Hesabın 1 Hafta Gibi Kısa Bir Sürede Açıldığı İçin Fake Hesap Katagorisine Giriyorsun Lütfen Bir Yetkiliyle İletişime Geç Onlar Sana Yardımcı Olucaktır.')
   setTimeout(() => {
   
-  }, 1000)
+  }, 50000)
   
   
      }
