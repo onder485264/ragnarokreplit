@@ -114,7 +114,7 @@ client.on('error', e => {
 });
 
 ///client.login(process.env.token);
-client.login('token')
+client.login('token') 
 //------------------------------------------------------------------------------------------------------------\\
 
 
@@ -228,6 +228,9 @@ client.on("userUpdate", async (stg, yeni) => {
       await client.channels.cache.get(logKanali).send(new Discord.MessageEmbed().setColor('BLACK').setDescription(`${yeni} adlı üye tagımızı alarak aramıza katıldı!`));
     } catch (err) { console.error(err) };
   };
+    setTimeout(() => {
+  
+  }, 10000)
   
   if (!(yeni.username).includes(tag) && uye.roles.cache.has(tagrol)) {
     try {
@@ -237,7 +240,9 @@ client.on("userUpdate", async (stg, yeni) => {
     } catch(err) { console.error(err) };
   };
 });
-
+  setTimeout(() => {
+  
+  }, 10000)
 //----------------------TAG-KONTROL----------------------\\     
 
 client.on("guildMemberAdd", member => {
@@ -250,7 +255,10 @@ member.roles.add(rol)
       .setColor("BLACK")
       .setDescription(`<@${member.id}> adlı kişi sunucumuza taglı şekilde katıldı, o doğuştan beri bizden !`)
       .setTimestamp()
-     client.channels.cache.get(ayarlar.tagLog).send(tagalma)
+  client.channels.cache.get(ayarlar.tagLog).send(tagalma)
+    setTimeout(() => {
+  
+  }, 10000)
 }
 })
 
