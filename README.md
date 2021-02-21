@@ -1,1 +1,1 @@
-**Maiwen CODE: https://discord.gg/V26kZcxmtY**
+**Maiwen CODEX: https://discord.gg/V26kZcxmtY**
