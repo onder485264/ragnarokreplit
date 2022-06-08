@@ -65,5 +65,5 @@ exports.conf = {
 exports.help = {
   name: "isıfırla",
   description: "",
-  usage: ""
+  usage: "sıfırla"
 };

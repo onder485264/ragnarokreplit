@@ -16,5 +16,5 @@ module.exports = client => {
     } ismi ile giriş yapıldı!`
   );
   client.user.setStatus("online");
-client.user.setActivity(`the Maiwen 💖`)
+client.user.setActivity(`Ragnarok❤️Valersia`)
 };

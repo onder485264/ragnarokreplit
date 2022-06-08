@@ -114,7 +114,7 @@ client.on('error', e => {
 });
 
 ///client.login(process.env.token);
-client.login('token') 
+client.login('OTY5MjAxMTIwNDI3NzkwMzQ2.Ymp84Q.d7cPP9J0ebcKTAVEK16Biie2Kq8') 
 //------------------------------------------------------------------------------------------------------------\\
 
 
@@ -150,29 +150,44 @@ client.on("guildMemberAdd", member => {
       if(üs) {
         üyesayısı = üyesayısı.replace(/([0-9])/g, d => {
           return {
-            '0': `<a:0_:784751038166859816>`,
-'1': `<a:1_:784751035796684841> `,
-'2': `<a:2_:784751037054976000>  `,
-'3': `<a:3_:784751034815217684>`,
-'4': `<a:4_:784751033053085696>`,                       
-'5': `<a:5_:784751026099322930>`,
-'6': `<a:6_:784751026698846239>`,
-'7': `<a:7_:784751027714261023> `,
-'8': `<a:8_:784751029022752798>`,
-'9': `<a:9_:784751033946603531>`}[d];
+'0': `0`,
+'1': `1`,
+'2': `2`,
+'3': `3`,
+'4': `4`,                       
+'5': `5`,
+'6': `6`,
+'7': `7 `,
+'8': `8`,
+'9': `9`}[d];
           })
         }
   
     var kontrol;
-  if (kurulus < 1296000000) kontrol = 'Hesap Durumu: `Güvenilir Değil'
-  if (kurulus > 1296000000) kontrol = 'Hesap Durumu: Güvenilir '
+  if (kurulus < 1296000000) kontrol = 'Hesap Durumu: `Güvenilir Değil <a:yok:943997017099755570>'
+  if (kurulus > 1296000000) kontrol = 'Hesap Durumu: Güvenilir <a:mark:943997003271122954>'
     moment.locale("tr");
   
   
   
- const hgmesaj = (`**__the Maiwen__** hoşgeldin (<@${vader.id}>) - (\`${vader.id}\`)\n \n Seninle beraber sunucumuz(`  + üyesayısı +  `)kişiye ulaştı. \n\n Hesabın (`  + moment(member.user.createdAt).format("DD MMMM YYYY dddd") + `) oluşturulduğu için`  + kontrol + `\n\n Kaydını tamamlamak için herhangi bir \`Confirmation\` teyit odasına girmen yeterlidir. \n\n Kayıt olduktan sonra rol seçim katagorisinden rolleri almayı unutma. \n\n Tagımızı alarak ailemizin bir parçası olabilirsin. \`㞸\` <@&749238356663074837> `)
-kanal.send(hgmesaj)
+  
+ const hgmesaj = (`
 
+<a:giris:944230820523159603> Sunucumuza Hoşgeldin. ${member}
+
+<a:konfedi:944241526744178769> Sunucumuz Sayende __**`  + üyesayısı +  `**__ Kişi Oldu.
+
+<:bravery:944231924585619536> Hesabın **(`  + moment(member.user.createdAt).format("DD MMMM YYYY dddd") + `)**  Tarihinde Oluşturuldu.
+
+<:banned:944234489817759786> Hesap Kontrol Ediliyor ` + kontrol + `.
+
+<a:bosterrr:944232264332632084> Sunucumuzda Tag **Ψ** Alarak Ailemize Katılabilirsin.
+
+<a:developer:943996995209691146>  Seninle Bu <@&972893048986022029> Rolde Olan Arkadaşlar İlgilenecektir.
+
+<a:part:944232959253295167> Sunucumuzda <#972886489266528286> Kısmını Okumayı Unutma İyi Eğlenceler.
+`)
+kanal.send(hgmesaj)
 
       
   
@@ -242,7 +257,7 @@ client.on("userUpdate", async (stg, yeni) => {
 });
   setTimeout(() => {
   
-  }, 10000)
+  }, 10)
 //----------------------TAG-KONTROL----------------------\\     
 
 client.on("guildMemberAdd", member => {
@@ -265,7 +280,14 @@ member.roles.add(rol)
 //-----------------------TAG-KONTROL----------------------\\     
   
 
-  
+
+
+
+////----------------------- HOŞGELDİN MESAJI KISMI -----------------------\\\\ 
           
   
 });
+
+//---Bu Kod komutlar klasörüne atılacaktır. 
+//###CodeMareFi tarafından hazırlanmıştır - - - Ekleyen //###MareFi
+

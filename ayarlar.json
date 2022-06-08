@@ -1,37 +1,44 @@
 {
   "prefix" : ".",
   
-  "sahip" : "",
+  "sahip" : "852822316811288617",
   
-  "botVoiceChannelID" : "",
+  "botVoiceChannelID" : "972905943392215130",
   
-  "Guild" : "",
+  "Guild" : "972882653235802123",
    
   
-  "tag" : "",
-  "nick" : " İsim | Yaş" ,
+  "tag" : "Ψ",
+  "nick" : "İsim | Yaş" ,
   
   
   "booster" :"",
    
-  "erkek1": "",
-  "erkek2" : "",
-  "kadın1" : "",
-  "kadın2" : "",
-  "unregister" : "",
-  "jailRol" : "",
-  "şüpheli" : "",
-  "tagRol" : "",
+  "erkek1": "972893809358831676",
+
+
+
+  "kadın1" : "972894170094137424",
+
+
   
-  "KayıtYetkilisi" : "",
-  "üstYetkiliRolü" : "",
+  "unregister" : "972892507417505893",
+
+  
+  "jailRol" : "973209290821222400 ",
+  "şüpheli" : "973209875192639488",
+
+  "tagRol" : "973209383435657326",
+  "KayıtYetkilisi" : "972893048986022029",
+  "üstYetkiliRolü" : "972911782463176714",
+  
 
   
   
-  "genelChat" : "",  
-  "kayitLog" : "",
-  "KayıtChat" : "",
-  "tagLog" : ""
+  "genelChat" : "972889180663332944",  
+  "kayitLog" : "973209800815038474",
+  "KayıtChat" : "972883739363377192",
+  "tagLog" : "973209722721275954"
  
   
   
